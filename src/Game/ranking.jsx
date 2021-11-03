@@ -8,8 +8,10 @@ class Ranking extends Component {
     render() {
         return (
             <>
-                <h2>RANKING</h2>
-                <p>Who is the Quiz Master?</p>
+                <Container textAlign="center">
+                    <h2>RANKING</h2>
+                    <p>Who is the Quiz Master?</p>
+                </Container>
                 <Container>
                     <List verticalAlign="left">
                         <User picture=""

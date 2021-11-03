@@ -4,7 +4,7 @@ import {Container, Header, Segment, Card, Button} from "semantic-ui-react";
 function Home(props) {
     return (
         <>
-            <Container id="containerWrap">
+            <Container id="containerWrap" textAlign="center">
 
                 <Header as="h2">
                     <Segment piled>

@@ -13,8 +13,10 @@ class Result extends Component {
     render() {
         return (
             <div>
-                <h2>Your result!</h2>
-                <p>Check your performance in this category</p>
+                <Container textAlign="center">
+                    <h2>Your result!</h2>
+                    <p>Check your performance in this category</p>
+                </Container>
                 <Container>
                     <List verticalAlign="left">
                         <Answer answer={answerData}/>

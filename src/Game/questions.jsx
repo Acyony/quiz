@@ -1,8 +1,9 @@
 import React from 'react';
-import {Button, Grid, Radio, Message} from "semantic-ui-react";
+import {Button, Grid, Radio, Message, Container} from "semantic-ui-react";
 
 function Questions(props) {
-    return (<div>
+    return (
+        <Container textAlign="center">
         <h2>Questions about Professions</h2>
         <p>Show us your knowledge!</p>
 
@@ -40,7 +41,7 @@ function Questions(props) {
             </Grid>
                 <Button>Ende</Button>
             </span>
-    </div>);
+    </Container>);
 }
 
 export default Questions;
