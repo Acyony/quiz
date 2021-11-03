@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+#containerWrap{
+  margin-top: 4rem;
+}
+
+#gridBoxStyle {
+  border-radius: 20px;
+}
