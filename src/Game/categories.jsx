@@ -1,10 +1,8 @@
 import React from 'react';
-import {Grid, Header, Segment} from "semantic-ui-react";
+import {Grid} from "semantic-ui-react";
+import Category from "./category";
 
-const size = {
-    width: 175,
-    height: 175
-}
+
 
 function Categories(props) {
     return (
@@ -12,37 +10,13 @@ function Categories(props) {
             <h2>Categories List</h2>
             <p>Select the category you want answer the questions</p>
             <Grid columns={5} divided>
-                <Grid.Row>
-                    <Grid.Column>
-                        <Segment id="gridBoxStyle" style={size}>
-                            <Header as="h2">
-                                SPORTS
-                                <Header.Subheader>
-                                    Icon
-                                </Header.Subheader>
-                            </Header>
-                        </Segment>
-                    </Grid.Column>
-                    <Grid.Column><Segment id="gridBoxStyle" style={size}>
-                        <Header as="h2">
-                            SPORTS
-                            <Header.Subheader>
-                                Icon
-                            </Header.Subheader>
-                        </Header>
-                    </Segment></Grid.Column>
-                    <Grid.Column><Segment id="gridBoxStyle" style={size}>
-                        <Header as="h2">
-                            SPORTS
-                            <Header.Subheader>
-                                Icon
-                            </Header.Subheader>
-                        </Header>
-                    </Segment></Grid.Column>
-                </Grid.Row>
-                <Grid.Row>
+                <Category title="Sport" icon="football ball"/>
+                <Category title="Sport" icon="football ball"/>
+                <Category title="Sport" icon="football ball"/>
+                <Category title="Sport" icon="football ball"/>
+                <Category title="Sport" icon="football ball"/>
+                <Category title="Sport" icon="football ball"/>
 
-                </Grid.Row>
             </Grid>
         </div>
     );

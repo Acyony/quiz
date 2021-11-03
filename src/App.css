@@ -37,7 +37,10 @@
   }
 }
 
-
+.headerStyle {
+  background-color: #61dafb;
+  padding: 2rem;
+}
 #containerWrap{
   margin-top: 4rem;
 }
